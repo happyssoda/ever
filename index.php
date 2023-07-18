@@ -8,7 +8,6 @@ $is_index = true;
 $is_main = true;
 
 // 루트 index를 쇼핑몰 index 설정했을 때
-echo "추가<h1>했다<h1/>";
 if(IS_YC && isset($default['de_root_index_use']) && $default['de_root_index_use'] && (!isset($ci) || !$ci)) {
     require_once(G5_SHOP_PATH.'/index.php');
     return;
